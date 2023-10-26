@@ -1420,16 +1420,8 @@ li{
 .facebook__timeline{
   margin: 0 auto;
   margin-top: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: #fff;
   width: 57%;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.625rem;
-  font-weight: bold;
+  height: 100%;
   text-align: center;
 }
 
@@ -1471,16 +1463,8 @@ li{
 .twitter__timeline{
   margin: 0 auto;
   margin-top: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: #fff;
   width: 57%;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.625rem;
-  font-weight: bold;
+  height: 100%;
   text-align: center;
 }
 
@@ -1562,6 +1546,9 @@ li{
 /* SP */
 
 @media screen and (max-width: 760px) {
+  html{
+    overflow-x: hidden;
+  }
   /* Header */
   .header {
     padding-top: 22px;
@@ -2149,16 +2136,10 @@ li{
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .facebook__timeline{
     margin-top: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 80%;
-    height: 400px;
-    font-size: 1.25rem;
+    width: 100%;
   }
-
   .facebook__follow{
     width: 175px;
     padding-top: 15px;
@@ -2173,16 +2154,10 @@ li{
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .twitter__timeline{
     margin-top: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 80%;
-    height: 400px;
-    font-size: 1.25rem;
+    width: 100%;
   }
-
   .twitter__follow{
     width: 175px;
     padding-top: 15px;
@@ -2248,51 +2223,6 @@ li{
     padding-right: 15px;
     margin-top: 20px;
   }
-  
-  /* 
- 
-  .curriculum-intro__item{
-    width: 48%;
-  }
-  .curriculum-intro__item:nth-of-type(3){
-    margin-top: 50px;
-  }
-  .curriculum-intro__item:nth-of-type(4){
-    margin-top: 50px;
-  }
-  .curriculum-intro__item__box{
-    height: 210px;
-    padding-top: 36px;
-  }
-  .curriculum-intro__item__title{
-    padding-top: 7px;
-    padding-bottom: 7px;
-    width: 120px;
-  }
-  .common{
-    margin-bottom: 44px;
-  }
-  .curriculum-intro__item__asterisk{
-    top: 85px;
-    left: 190px;
-  }
-  .curriculum-intro__item__asterisk::before{
-    top: -15px;
-    left: -75px;
-    width: 300px;
-  }
-  .big-asterisk{
-    width: 272px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 18px;
-    padding-right: 18px;
-    bottom: -17px;
-    right: 0px;
-  }
-  .curriculum-intro__img{
-    display: none;
-  } */
 }
 
 
